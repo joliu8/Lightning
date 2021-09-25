@@ -7,15 +7,6 @@ void setup() {
   size(600, 600);
   background(255,255,255);
 
-  //grade
-  stroke(255, 0, 0);
-  noFill();
-  circle(340, 155, 85);
-  fill(255, 0, 0);
-  rect(325, 130, 10, 50);
-  rect(325, 130, 40, 10);
-  rect(325, 150, 30, 10);
-
   //paper
   strokeWeight(3);
   stroke(89, 89, 88);
