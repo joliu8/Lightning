@@ -6,75 +6,87 @@ int endY = 100;
 void setup() {
   size(600, 600);
   //background(255,255,255);
-  
-   //marker outlines
+
+
+  //paper
   strokeWeight(3);
   stroke(89, 89, 88);
-  
-  //paper
-  fill(255,255,255);
-  quad(100,500,400,500,400,100,100,100);
-  
+  fill(255, 255, 255);
+  quad(100, 500, 400, 500, 400, 100, 100, 100);
+
+  //grade
+  stroke(255, 0, 0);
+  noFill();
+  circle(340, 155, 85);
+  fill(255, 0, 0);
+  rect(325, 130, 10, 50);
+  rect(325, 130, 40, 10);
+  rect(325, 150, 30, 10);
+
+  //marker outlines
+  strokeWeight(3);
+  stroke(89, 89, 88);
+
   //blue marker
   fill(72, 144, 217);
-  rect(560,320,30,120);
-  triangle(560,440,590,440,575,470);
+  rect(560, 320, 30, 120);
+  triangle(560, 440, 590, 440, 575, 470);
   fill(122, 188, 255);
-  ellipse(575,375,20,60);
-  
+  ellipse(575, 375, 20, 60);
+
   //red marker
   fill(217, 52, 52);
-  rect(410,320,30,120);
-  triangle(410,440,440,440,425,470);
+  rect(410, 320, 30, 120);
+  triangle(410, 440, 440, 440, 425, 470);
   fill(247, 124, 124);
-  ellipse(425,375,20,60);
+  ellipse(425, 375, 20, 60);
 
 
   //green marker
   fill(74, 158, 86);
-  rect(460,120,30,120);
-  triangle(460,240,490,240,475,270);
+  rect(460, 120, 30, 120);
+  triangle(460, 240, 490, 240, 475, 270);
   fill(112, 219, 127);
-  ellipse(475,175,20,60);
+  ellipse(475, 175, 20, 60);
 
   //purple marker
   fill(143, 91, 181);
-  rect(60,120,30,120);
-  triangle(60,240,90,240,75,270);
+  rect(60, 120, 30, 120);
+  triangle(60, 240, 90, 240, 75, 270);
   fill(197, 151, 230);
-  ellipse(75,175,20,60);
+  ellipse(75, 175, 20, 60);
 
   //pink marker
   fill(255, 130, 186);
-  rect(110,420,30,120);
-  triangle(110,540,140,540,125,570);
+  rect(110, 420, 30, 120);
+  triangle(110, 540, 140, 540, 125, 570);
   fill(255, 186, 217);
-  ellipse(125,475,20,60);
+  ellipse(125, 475, 20, 60);
 
 
   //brown marker
   fill(128, 97, 61);
-  rect(510,270,30,120);
-  triangle(510,390,540,390,525,420);
+  rect(510, 270, 30, 120);
+  triangle(510, 390, 540, 390, 525, 420);
   fill(189, 151, 108);
-  ellipse(525,325,20,60);
+  ellipse(525, 325, 20, 60);
 
   //gray marker
-  fill(84,84,84);
-  rect(10,270,30,120);
-  triangle(10,390,40,390,25,420);
+  fill(84, 84, 84);
+  rect(10, 270, 30, 120);
+  triangle(10, 390, 40, 390, 25, 420);
   fill(173, 173, 172);
-  ellipse(25,325,20,60);
+  ellipse(25, 325, 20, 60);
 
   //grade
-  stroke(255,0,0);
+  stroke(255, 0, 0);
   noFill();
-  circle(340,155,85);
-  fill(255,0,0);
-  rect(325,130,10,50);
-  rect(325,130,40,10);
-  rect(325,150,30,10);
-  
+  circle(340, 155, 85);
+  fill(255, 0, 0);
+  rect(325, 130, 10, 50);
+  rect(325, 130, 40, 10);
+  rect(325, 150, 30, 10);
+
   strokeWeight(10);
 }
 void draw() {
@@ -91,7 +103,6 @@ void draw() {
     startX = endX;
     startY = endY;
   }
-  
 }
 
 void mousePressed() {
