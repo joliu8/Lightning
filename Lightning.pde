@@ -11,7 +11,7 @@ void setup() {
   //paper
   strokeWeight(3);
   stroke(89, 89, 88);
-  fill(255, 255, 255,150);
+  fill(255, 255, 255);
   quad(100, 500, 400, 500, 400, 100, 100, 100);
 
   //grade
