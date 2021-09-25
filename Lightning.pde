@@ -5,7 +5,7 @@ int endY = 100;
 
 void setup() {
   size(600, 600);
-  //background(255,255,255);
+  background(255,255,255);
 
   //grade
   stroke(255, 0, 0);
@@ -19,7 +19,8 @@ void setup() {
   //paper
   strokeWeight(3);
   stroke(89, 89, 88);
-  fill(255, 255, 255);
+  //fill(255, 255, 255);
+  noFill();
   quad(100, 500, 400, 500, 400, 100, 100, 100);
 
 
