@@ -15,7 +15,7 @@ void setup() {
   rect(325, 130, 10, 50);
   rect(325, 130, 40, 10);
   rect(325, 150, 30, 10);
-  
+
   //paper
   strokeWeight(3);
   stroke(89, 89, 88);
@@ -78,6 +78,7 @@ void setup() {
   fill(173, 173, 172);
   ellipse(25, 325, 20, 60);
 
+
   //grade
   stroke(255, 0, 0);
   noFill();
@@ -86,11 +87,10 @@ void setup() {
   rect(325, 130, 10, 50);
   rect(325, 130, 40, 10);
   rect(325, 150, 30, 10);
-
   strokeWeight(10);
 }
+
 void draw() {
-  noStroke();
   stroke((int)(Math.random()*256), (int)(Math.random()*256), (int)(Math.random()*256), (int)(Math.random()*200));
   while (startX < 380) {
     endX = startX + (int)(Math.random()*30);
